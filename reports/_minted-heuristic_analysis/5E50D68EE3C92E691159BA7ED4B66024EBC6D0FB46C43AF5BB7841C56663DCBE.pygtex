@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{l+lScalar+lScalarPlain}{Load(C2, P2, JFK)}
+\PYG{l+lScalar+lScalarPlain}{Load(C1, P1, SFO)}
+\PYG{l+lScalar+lScalarPlain}{Fly(P2, JFK, SFO)}
+\PYG{l+lScalar+lScalarPlain}{Unload(C2, P2, SFO)}
+\PYG{l+lScalar+lScalarPlain}{Fly(P1, SFO, JFK)}
+\PYG{l+lScalar+lScalarPlain}{Unload(C1, P1, JFK)}
+\end{Verbatim}

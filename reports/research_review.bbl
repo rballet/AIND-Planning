@@ -1,0 +1,51 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Blum and Furst(1997)]{Blum1997}
+Avrim~L Blum and Merrick~L Furst.
+\newblock Fast planning through planning graph analysis.
+\newblock \emph{Artificial intelligence}, 90\penalty0 (1):\penalty0 281--300,
+  1997.
+
+\bibitem[Chapman(1987)]{Chapman1987}
+David Chapman.
+\newblock Planning for conjunctive goals.
+\newblock \emph{Artificial intelligence}, 32\penalty0 (3):\penalty0 333--377,
+  1987.
+
+\bibitem[Fikes and Nilsson(1971)]{Fikes1971}
+Richard~E Fikes and Nils~J Nilsson.
+\newblock Strips: A new approach to the application of theorem proving to
+  problem solving.
+\newblock \emph{Artificial intelligence}, 2\penalty0 (3-4):\penalty0 189--208,
+  1971.
+
+\bibitem[Fikes and Nilsson(1993)]{Fikes1993}
+Richard~E Fikes and Nils~J Nilsson.
+\newblock Strips, a retrospective.
+\newblock \emph{Artificial Intelligence}, 59\penalty0 (1):\penalty0 227--232,
+  1993.
+
+\bibitem[McDermott et~al.(1998)McDermott, Ghallab, Howe, Knoblock, Ram, Veloso,
+  Weld, and Wilkins]{McDermott1998}
+Drew McDermott, Malik Ghallab, Adele Howe, Craig Knoblock, Ashwin Ram, Manuela
+  Veloso, Daniel Weld, and David Wilkins.
+\newblock Pddl-the planning domain definition language.
+\newblock 1998.
+
+\bibitem[Russell and Norvig(2009)]{Russell2009}
+Stuart Russell and Peter Norvig.
+\newblock \emph{Artificial Intelligence: A Modern Approach}.
+\newblock Prentice Hall Press, Upper Saddle River, NJ, USA, 3rd edition, 2009.
+\newblock ISBN 0136042597, 9780136042594.
+
+\bibitem[Sacerdoti(1975)]{Sacerdoti1975}
+Earl~D Sacerdoti.
+\newblock The nonlinear nature of plans.
+\newblock Technical report, DTIC Document, 1975.
+
+\end{thebibliography}

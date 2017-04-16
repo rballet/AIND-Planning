@@ -1,0 +1,29 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage[english]{babel}
+\usepackage{natbib}
+\usepackage{multirow}
+
+\title{Planning: \\Research Review}
+\author{Raphael Ballet}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	This work presents a short report on three relevant developments in the field of artificial intelligence planning.
+
+\paragraph{STRIPS} Acronym for ''Stanford Research Institute Problem Solver'', it was a problem solver designed to solve planning tasks for a mobile robot at SRI~\citep{Fikes1993}. It attempted to create a representation of a planning problem using the definition of world models (formal description of the states), goal states, and operators, that is, actions that transform a given world model to another world model. The algorithm then used theorem-proving methods together with a state-space search algorithms in order to find a sequence of actions (operators) needed to reach a goal state given an initial world model~\citep{Fikes1971}. The theorem-proving methods were used to obtain applicable operators at a given world model, as well as to test if it has reached the goal state. 
+
+Furthermore, even thought the STRIPS algorithm had an important role in planning problems, it was its formal language representation to the planning problem that is the base for most actual planning algorithms~\citep{Russell2009}. One practical example is the \textit{Problem Domain Description Language} (PDDL)~\citep{McDermott1998}, a problem-specification language used as a standard for most actual planning search problems which uses STRIPS, ADL and others.
+
+\paragraph{Partial-Order Planning} Compared with the so-called "total-order planning", that is, an algorithm responsible to find an unique and ordered sequence of actions to achieve all the subgoals~\citep{Russell2009}; the partial-order planning tries to obtain a set of actions needed to achieve each subgoal independent of its final ordering~\citep{Sacerdoti1975}. The final action order is then obtained by combining all the independent subgoal plans. 
+
+Partial-order planning enabled more flexibility and efficiency in planning problems. It could obtain all the sequence of actions needed to solve a given subproblem, thus avoiding the need to search through all state space. Examples of application of such concept include the pioneer NOAH~\citep{Sacerdoti1975} and the TWEAK~\citep{Chapman1987} problem solvers.
+
+\paragraph{Graphplan} The Graphplan was developed by \citet{Blum1997} and reduced considerably the speed and the amount of search needed compared with other traditional total-order or partial-order planning methods. At first, it uses planning domains represented in STRIPS language to construct a graph structure, called planning graph, in such a way that it can identify and remove possible action and state constraints, thus pruning impossible nodes~\citep{Blum1997}. The planning graph is organized in levels such that each level correspond to all the possible actions and states reachable at a given time-step~\citep{Russell2009}. Using the planning graph, it then uses a search algorithm, namely Graphplan, to return the path with minimum length.
+
+\bibliographystyle{plainnat}
+\bibliography{Ref}
+
+\end{document}
